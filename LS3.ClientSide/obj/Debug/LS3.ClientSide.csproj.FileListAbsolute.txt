@@ -1,0 +1,15 @@
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\bin\Debug\LS3.ClientSide.exe.config
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\bin\Debug\LS3.ClientSide.exe
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\bin\Debug\LS3.ClientSide.pdb
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\MainWindow.g.cs
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\App.g.cs
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide_MarkupCompile.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide_MarkupCompile.lref
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\MainWindow.baml
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide.g.resources
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide.Properties.Resources.resources
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide.exe
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\LS3.ClientSide\obj\Debug\LS3.ClientSide.pdb

@@ -1,0 +1,51 @@
+﻿<Window x:Class="LS3.ClientSide.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LS3.ClientSide"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="270">
+
+
+
+    <!--<StackPanel>
+        <Button Name="connectBtn" Width="100" Height="50" 
+                Click="connectBtn_Click"
+           HorizontalAlignment="Left" Margin="20,10" Content="Connect"
+           FontSize="25" FontWeight="Bold">
+        </Button>
+
+        <Button Content="Open File Dialog" Name="OPFDBtn" FontSize="20"
+                Width="200" 
+           Height="50" HorizontalAlignment="Left" Margin="10,10"
+           IsEnabled="{Binding IsConnectedServer,Mode=TwoWay,
+           UpdateSourceTrigger=PropertyChanged}"
+           Click="OPFDBtn_Click">
+        </Button>
+
+        <Image Height="200" Width="300" Source="{Binding SelectedOPFDImage}">
+
+        </Image>
+
+        <Button Width="100" Height="50" HorizontalAlignment="Left" 
+           Margin="20,10" Content="Send" FontSize="25" FontWeight="Bold"
+            Name="SendBtn"
+           Click="SendBtn_Click">
+        </Button>
+    </StackPanel>-->
+
+
+    <Grid>
+        <Button Name="connectBtn" Width="100" Height="50" 
+                Click="connectBtn_Click" HorizontalAlignment="Center"
+                Margin="20,10" Content="Connect"
+                FontSize="25" FontWeight="Bold"
+                ></Button>
+    </Grid>
+
+
+
+
+
+</Window>

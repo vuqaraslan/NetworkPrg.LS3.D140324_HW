@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkPrg.LS3.Date140324_HW", "NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW.csproj", "{D0400C2A-10D9-4A49-9152-F03312610FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LS3.ClientSide", "LS3.ClientSide\LS3.ClientSide.csproj", "{C921AB83-937E-4D93-B08C-B3091DC21987}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0400C2A-10D9-4A49-9152-F03312610FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0400C2A-10D9-4A49-9152-F03312610FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0400C2A-10D9-4A49-9152-F03312610FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0400C2A-10D9-4A49-9152-F03312610FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C921AB83-937E-4D93-B08C-B3091DC21987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C921AB83-937E-4D93-B08C-B3091DC21987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C921AB83-937E-4D93-B08C-B3091DC21987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C921AB83-937E-4D93-B08C-B3091DC21987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BB26FC1-497E-4B23-B826-E52FCEEFF622}
+	EndGlobalSection
+EndGlobal

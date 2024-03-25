@@ -1,0 +1,15 @@
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\bin\Debug\NetworkPrg.LS3.Date140324_HW.exe.config
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\bin\Debug\NetworkPrg.LS3.Date140324_HW.exe
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\bin\Debug\NetworkPrg.LS3.Date140324_HW.pdb
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\MainWindow.g.cs
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\App.g.cs
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW_MarkupCompile.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW_MarkupCompile.lref
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\MainWindow.baml
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW.g.resources
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW.Properties.Resources.resources
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW.exe
+C:\Users\acer\source\repos\NetworkPrg.LS3.Date140324_HW\NetworkPrg.LS3.Date140324_HW\obj\Debug\NetworkPrg.LS3.Date140324_HW.pdb
