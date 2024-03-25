@@ -29,21 +29,7 @@ namespace NetworkPrg.LS3.Date140324_HW
                 handler(this, new PropertyChangedEventArgs(name));
             }
         }
-
-        ////private string connectedClient;
-        ////public string ConnectedClient
-        ////{
-        ////    get { return connectedClient; }
-        ////    set { connectedClient = value; OnPropertyChanged(); }
-        ////}
-
-        ////private BitmapImage forCheckDirectConvertImg;
-        ////public BitmapImage ForCheckDirectConvertImg
-        ////{
-        ////    get { return forCheckDirectConvertImg; }
-        ////    set { forCheckDirectConvertImg = value; OnPropertyChanged(); }
-        ////}
-
+        
         public string LocalIP { get; set; }
         public Socket Socket { get; set; }
         public IPEndPoint EndPoint { get; set; }
@@ -71,7 +57,7 @@ namespace NetworkPrg.LS3.Date140324_HW
             LocalIP = SearchLocalIPAddress();
             var ipAddress = IPAddress.Parse(LocalIP);
             var port = 27001;
-
+            
             AllClients = new ObservableCollection<MyClients>();
             Task.Run(() =>
             {
@@ -80,7 +66,6 @@ namespace NetworkPrg.LS3.Date140324_HW
                     EndPoint = new IPEndPoint(ipAddress, port);
                     Socket.Bind(EndPoint);
                     Socket.Listen(10);
-
                     while (true)
                     {
                         //MessageBox.Show("Server is ready for accepting client !");
@@ -94,12 +79,8 @@ namespace NetworkPrg.LS3.Date140324_HW
                             AllClients.Add(myClient);
                         });
                         //MessageBox.Show($"Client -> {client.RemoteEndPoint}");
-
                         Task.Run(() =>
                         {
-                            //var connClient = $"CLIENT : {client.RemoteEndPoint} connected";
-                            //ConnectedClient = connClient;
-
                             var length = 0;
                             var bytes = new byte[150000];
                             do
@@ -108,17 +89,11 @@ namespace NetworkPrg.LS3.Date140324_HW
 
                                 this.Dispatcher.Invoke(() =>
                                 {
-                                    ////Burda hec komputere save-etmedende birbasa alinan sekilin(image-in) byte-larini yigib image-e cevirib tezden
-                                    ////hemin UI-elementi olan image-in Source-na bind olunmus BitmapImage-tipinde propertiye menimsedirem.
-                                    ////Yene de daha deqiq bilmek istesem bu proyekti Client-hissesi ile birge run edib test etmek olar.
-                                    //ForCheckDirectConvertImg = ConvertByteArrayToBitmapImage(bytes);
-
                                     myClient.ImageSended = ConvertByteArrayToBitmapImage(bytes);
                                     //c.ImageSended = new BitmapImage(new Uri(ScreenFileName));
                                 });
                             } while (true);
                         });
-
                     }
                 }
             });
@@ -144,7 +119,5 @@ namespace NetworkPrg.LS3.Date140324_HW
                 return null;
             }
         }
-
     }
-
 }
