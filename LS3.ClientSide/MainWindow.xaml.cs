@@ -22,9 +22,6 @@ using System.Drawing.Imaging;
 
 namespace LS3.ClientSide
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
@@ -49,14 +46,7 @@ namespace LS3.ClientSide
             var localIP = data2.FirstOrDefault().ToString();
             return localIP;
         }
-
-        //private BitmapImage selectedOPFDImage;
-        //public BitmapImage SelectedOPFDImage
-        //{
-        //    get { return selectedOPFDImage; }
-        //    set { selectedOPFDImage = value; OnPropertyChanged(); }
-        //}
-
+        
         private byte[] dataImage;
         public byte[] DataImage
         {
@@ -68,7 +58,6 @@ namespace LS3.ClientSide
         {
             InitializeComponent();
             this.DataContext = this;
-
             Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             LocalIP = SearchLocalIPAddress();
             var ipAddress = IPAddress.Parse(LocalIP);
@@ -80,16 +69,14 @@ namespace LS3.ClientSide
         {
             var width = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width;
             var height = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height;
-
             Bitmap bitmap = new Bitmap(width, height);
-
             using (Graphics graphics = Graphics.FromImage(bitmap))
             {
                 graphics.CopyFromScreen(0, 0, 0, 0, bitmap.Size);
             }
             return bitmap;
         }
-
+        
         async Task<byte[]> ConvertImageToByte(Image image)
         {
             using (MemoryStream ms = new MemoryStream())
@@ -107,7 +94,6 @@ namespace LS3.ClientSide
                 if (Socket.Connected)
                 {
                     MessageBox.Show("Connected to the Server !");
-
                     Task.Run(async () =>
                     {
                         //while (true)
@@ -117,12 +103,6 @@ namespace LS3.ClientSide
                             Socket.Send(imageBytes);
                         //}
                     });
-                    //while (true)
-                    //{
-                    //    //var message = ForSendMessage;
-                    //    var bytes = Encoding.UTF8.GetBytes(ForSendMessage);
-                    //    Socket.Send(bytes);
-                    //}
                 }
                 else
                 {
@@ -133,36 +113,6 @@ namespace LS3.ClientSide
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
-
-
-        //private void OPFDBtn_Click(object sender, RoutedEventArgs e)
-        //{
-        //    OpenFileDialog openFileDialog = new OpenFileDialog();
-        //    openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.gif;*.tif;...";
-        //    openFileDialog.Title = "Choose Image";
-        //    if (openFileDialog.ShowDialog() == true)
-        //    {
-        //        var filename = openFileDialog.FileName;
-        //        SelectedOPFDImage = new BitmapImage(new Uri(filename));
-        //        DataImage = File.ReadAllBytes(filename);
-        //    }
-        //}
-
-        //private void SendBtn_Click(object sender, RoutedEventArgs e)
-        //{
-        //    if (DataImage != null)
-        //    {
-        //        Socket.Send(DataImage);
-        //        MessageBox.Show("Image is sended like byte formats !");
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("Image array is null !");
-        //    }
-        //}
-
-
     }
 }
